@@ -1,0 +1,220 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    z-index: 5;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #ffffff; 
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 43.5px;
+}
+
+
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    height: 87px;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    width: 100%;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 19px;
+    max-width: 100%;
+}
+
+.subheader .subheader_official {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    opacity: .5;
+}
+
+.subheader .subheader_call {
+    margin-top: 25px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: right;
+    margin-top: 8px;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    height: 46px;
+    width: 172px;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .12);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px rgba(0, 0, 0, .21);
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/main_bg.jpg) center center/cover no-repeat;
+    padding: 200px 0 186px 0;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 42px;
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.promo .promo_descr span {
+    text-transform: uppercase;
+}
+
+.promo .promo_btn {
+    width: 259px;
+    height: 63px;
+    display: block;
+    margin: 115px auto 0;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .12);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px rgba(0, 0, 0, .21);
+    text-transform: uppercase;
+}
+
+
+
+.reasons {
+    min-height: 850px;
+    padding: 18px 0 64px;
+}
+
+.label {
+    background-color: #000000;
+    margin: 0 auto;
+    height: 27px;
+    width: 115px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 26px;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.title {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 32px 0 0 0;
+}
+
+.reasons .reasons_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons_item .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 116px;
+    width: 116px;
+    border-radius: 100%;
+    background-color: #1EACC7;
+    margin-right: 25px;
+}
+
+.reasons .reasons_item .reasons_descr {
+    width: 372px;
+}
+
+.reasons .reasons_item .reasons_descr .reasons_subtitle {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #1EACC7;
+}
+
+.reasons .reasons_item .reasons_descr .reasons_text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #202020;
+}
